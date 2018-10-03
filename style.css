@@ -41,14 +41,19 @@ li a:hover {
 	padding-bottom: 20px;
 }
 
-.align-content{
+.align-content {
 	text-align: center;
 }
 
-.searchBox-height{
+.searchBox-height {
 	line-height: 1.5;
-	padding:10px;
+	padding: 10px;
 	margin-bottom: 20px;
-	font-size:1em;
-	box-shadow: 0 1px 3px #333;
+	font-size: 1em;
+	/* box-shadow: 0 1px 3px #333; */
+	-webkit-box-shadow: 0 10px 6px -6px #77777730;
+	-moz-box-shadow: 0 10px 6px -6px #77777730;
+	box-shadow: 0 10px 6px -6px #77777730;
+	;
+	border-radius: 4px;
 }
