@@ -41,31 +41,88 @@ li a:hover {
 
 }
 
+.container {
+	clear: both;
+	padding-top: 80px;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
 /* Main Content */
 #google-logo {
-	padding-top: 10%;
+	padding-top: 7%;
 	padding-bottom: 20px;
 }
 
 .align-content {
 	text-align: center;
-	margin-top: 10px;
+	/* margin-top: 10px; */
 }
 
-.searchBox-height {
-	line-height: 1;
-	padding: 10px;
-	margin-bottom: 20px;
+#search-box {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+	transition: box-shadow 0.25s ease-in-out;
+	width: 600px;
+	border: 1px solid #1112;
+	border-radius: 2px;
+	padding: 8px;
+	margin-top: 25px;
+	height: 25px;
 	font-size: 1em;
-	/* box-shadow: 0 1px 3px #333; */
-	-webkit-box-shadow: 0 10px 6px -6px #77777730;
-	-moz-box-shadow: 0 10px 6px -6px #77777730;
-	box-shadow: 0 10px 6px -6px #77777730;
-	border-radius: 4px;
+	position: relative;
+}
+
+#voice-button {
+	position: absolute;
+	border: transparent;
+	background-color: transparent;
+	top: 330px;
+	left: 950px;
+	width: 30px;
+}
+
+#search-box:hover {
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .25);
 }
 
 .button_holder {
 	margin-top: 20px;
+}
+
+/* #voice-search {
+	float: right;
+	background: url(images/)
+} */
+
+.search-button {
+	background-image: -moz-linear-gradient(top, #f5f5f5, #f1f1f1);
+	-moz-border-radius: 2px;
+	-moz-user-select: none;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	max-width: 120px;
+	text-align: center;
+	height: 36px;
+	line-height: 27px;
+	margin-top: 30px;
+}
+
+.search-button:hover {
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	color: #222;
 }
 
 button {
@@ -106,11 +163,14 @@ button:focus {
 	color: blue;
 }
 
-.space {
-	height: 100px;
-}
+/* .space {
+	height: 135px;
+} */
 
 /* Footer */
+footer {
+	margin-top: 105px;
+}
 
 .footer {
 	margin-bottom: 0px;
